@@ -89,4 +89,4 @@ acc: 0.8536
 sensitivity: 0.9030
 specificity: 0.7294
 ```
-![Fig1](""https://github.com/walae-br/breast-cancer-classification/blob/main/plot.png?raw=true)
+![Fig1](https://github.com/walae-br/breast-cancer-classification/main/plot.png?raw=true)
