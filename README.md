@@ -71,4 +71,22 @@ Go ahead and train CancerNet on our breast cancer dataset.
 python train_model.py
 ```
 
-![Fig1]("")
+Results:
+```
+[INFO] evaluating network...
+              precision    recall  f1-score   support
+
+           0       0.89      0.90      0.90     39720
+           1       0.75      0.73      0.74     15785
+
+    accuracy                           0.85     55505
+   macro avg       0.82      0.82      0.82     55505
+weighted avg       0.85      0.85      0.85     55505
+
+[[35867  3853]
+ [ 4272 11513]]
+acc: 0.8536
+sensitivity: 0.9030
+specificity: 0.7294
+```
+![Fig1](""https://github.com/walae-br/breast-cancer-classification/blob/main/plot.png?raw=true)
