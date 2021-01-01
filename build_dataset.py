@@ -35,11 +35,11 @@ for (dType, imagePaths, baseOutput) in datasets:
 
     # if the output base output directory does not exist, create it
     if not os.path.exists(baseOutput):
-	print("[INFO] 'creating {}' directory".format(baseOutput))
+        print("[INFO] 'creating {}' directory".format(baseOutput))
         os.makedirs(baseOutput)
 
-	# loop over the input image paths
-	for inputPath in imagePaths:
+        # loop over the input image paths
+        for inputPath in imagePaths:
             # extract the filename of the input image and extract the
             # class label ("0" for "negative" and "1" for "positive")
             filename = inputPath.split(os.path.sep)[-1]
