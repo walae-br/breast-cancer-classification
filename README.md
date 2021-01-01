@@ -11,6 +11,35 @@ The original dataset consisted of 162 whole mount slide images of Breast Cancer 
 
 ##### Project structure
 
+```
+.
+├── datasets
+│   ├── icd
+│   ├── idc
+│   │   ├── testing
+│   │   │   ├── 0 [39720 entries exceeds filelimit, not opening dir]
+│   │   │   └── 1 [15785 entries exceeds filelimit, not opening dir]
+│   │   ├── training
+│   │   │   ├── 0 [143082 entries exceeds filelimit, not opening dir]
+│   │   │   └── 1 [56736 entries exceeds filelimit, not opening dir]
+│   │   └── validation
+│   │       ├── 0 [15936 entries exceeds filelimit, not opening dir]
+│   │       └── 1 [6265 entries exceeds filelimit, not opening dir]
+│   ├── IDC_regular_ps50_idx5 [279 entries exceeds filelimit, not opening dir]
+│   └── orig [279 entries exceeds filelimit, not opening dir]
+├── images
+│   └── breast_cancer_classification_dataset.jpg
+├── pipeline
+│   │  
+│   ├── cancernet.py
+│   ├── config.py
+│   └── __init__.py
+├── build_dataset.py
+├── README.md
+└── train_model.py
+
+```
+
 Clone the repository:
 ```
 git clone git@github.com:walae-br/breast-cancer-classification.git
